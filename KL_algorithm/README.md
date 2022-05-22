@@ -6,6 +6,13 @@ This KL algorithm implementation was done as a programming assignment for [ELEC-
 ## Report explaining the implementation and the experiments in detail
 [Hypergraph Partitioning KL algorithm implementation](https://github.com/12562/ELEC-8590/blob/master/KL_algorithm/Hypergraph_partitioning_KL_algorithm_implementation.pdf)
 
+## Example Experiment Result
+   - Running the program binary would give two images displayed in succession. First is the initial partition and second is the final partition. Both images show the crossings incurred due to the partition similar to the following:
+   
+![Experiment result with initial cut size of 104.84](https://github.com/12562/ELEC-8590/blob/6b2d0834c303b0a1854f0e24b364cb51aeffcfe9/KL_algorithm/img/KL%20partitioning%20result%20image.png)
+   - Red crossings have a distance greater than 0.67 and have the highest weight followed by blue with distance greater than 0.33 followed by green which has the least weight.
+   - The algorithm endeavours to reduce the cut size (Reduce the number of higher weight crossings).
+
 ## To run
 ```
 ./bin/KL_algorithm <nodes_file> <nets_file>
