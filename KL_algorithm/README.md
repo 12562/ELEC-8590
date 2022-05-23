@@ -25,6 +25,7 @@ This KL algorithm implementation was done as a programming assignment for [ELEC-
    make bin/KL_algorithm
    ```
  * This will create the KL_algorithm binary in ./bin directory
+ * Dependencies for building bin/KL_algorithm are [SFML](https://www.sfml-dev.org/download.php), [freetype](https://freetype.org/download.html) and [jpeg](http://libjpeg.sourceforge.net/)
 
 ## Pseudo Code:
 ```
