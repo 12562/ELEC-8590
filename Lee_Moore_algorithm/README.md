@@ -1,12 +1,12 @@
-#Lee-Moore Algorithm Implementation
+# Lee-Moore Algorithm Implementation
 
-##Introduction
+## Introduction
 This LM algorithm implementation was done as a programming assignment for [ELEC-8950 Physical Design Automation](https://sites.google.com/view/mohammedaskhalid/teaching?authuser=0) course at [University of Windsor](@UWindsor) 
 
-##Report explaining the implementation and the experiments in detail
+## Report explaining the implementation and the experiments in detail
 [LM-Maze router implementation](https://github.com/12562/ELEC-8590/blob/master/Lee_Moore_algorithm/Maze_router_implementation.pdf)
 
-##Graphical Output result
+## Graphical Output result
   - Running the program binary would give a graphical output where a wave propagates from the source node to the target node where adjacent grid cells are 
 progressively labeled one by one according to the distance of the “wavefront” from Source until the target node is reached. 
 
