@@ -1,0 +1,87 @@
+
+
+maze router testcase #1
+=======================
+
+15 // grid size, assume grid is numbered from 0 to 14
+
+obstruction 3 12
+obstruction 3 11
+obstruction 3 10
+obstruction 3 3
+obstruction 3 4
+obstruction 3 5
+obstruction 3 6
+obstruction 4 6
+obstruction 5 6
+obstruction 9 10
+obstruction 10 10
+obstruction 11 10
+obstruction 11 9
+obstruction 11 8
+obstruction 6 2
+obstruction 7 2
+obstruction 8 2
+obstruction 8 5
+obstruction 9 5
+obstruction 10 5
+obstruction 11 5
+obstruction 12 5
+
+net 3 12 12 5
+net 3 6 10 10
+net 8 5 8 2
+net 3 3 3 10
+
+
+
+maze router testcase #2
+=======================
+
+15 // grid size, assume grid is numbered from 0 to 14
+
+obstruction 0 9
+obstruction 1 9
+obstruction 2 9
+obstruction 2 3
+obstruction 2 4
+obstruction 2 5
+obstruction 3 3
+obstruction 3 4
+obstruction 3 5
+obstruction 5 13
+obstruction 6 13
+obstruction 7 13
+obstruction 8 13
+obstruction 6 8
+obstruction 7 8
+obstruction 8 8
+obstruction 6 9 
+obstruction 7 9
+obstruction 8 9
+obstruction 6 10
+obstruction 7 10
+obstruction 8 10
+obstruction 6 1
+obstruction 7 1
+obstruction 10 3
+obstruction 11 3
+obstruction 12 3
+obstruction 10 4
+obstruction 11 4
+obstruction 12 4
+obstruction 10 5
+obstruction 11 5
+obstruction 12 5
+obstruction 12 8
+obstruction 12 9
+obstruction 12 10
+obstruction 12 11
+obstruction 12 12
+
+net 3 3 10 4
+net 7 1 7 13
+net 2 9 10 5
+net 3 4 10 3
+net 2 5 6 1
+net 12 8 12 12
