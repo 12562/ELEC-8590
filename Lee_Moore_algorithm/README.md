@@ -23,15 +23,16 @@ progressively labeled one by one according to the distance of the â€œwavefrontâ€
 
 ## To run
 ```
-./bin/LeeMoore_routing <Mazetests file> <debug=0|1>
+./bin/LM_routing <Mazetests file> <debug=0|1>
 ```
    - Mazetests file can be found in the testcases directory [here](https://github.com/12562/ELEC-8590/tree/master/Lee_Moore_algorithm/testcases)
 
-## To make KL_algorithm binary, run command:
+## To make LM_routing binary, run command:
 ```
-make bin/LeeMoore_routing
+make bin/LM_routing
 ```
-   - This will create the KL_algorithm binary in ./bin directory
+   - This will create the LM_routing binary in ./bin directory
+   - Dependencies for building bin/LM_routing are [SFML](https://www.sfml-dev.org/download.php), [freetype](https://freetype.org/download.html) and [jpeg](http://libjpeg.sourceforge.net/)
 
 ## Pseudo Code:
 ```
