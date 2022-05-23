@@ -17,6 +17,8 @@ This KL algorithm implementation was done as a programming assignment for [ELEC-
 ```
 ./bin/KL_algorithm <nodes_file> <nets_file>
 ```
+   - Dummy(Small) circuit node and nets files can be found [here](https://github.com/12562/ELEC-8590/tree/master/KL_algorithm/ckts/dummy_ckts)
+   - Actual circuit node and nets files can be found [here](https://github.com/12562/ELEC-8590/tree/master/KL_algorithm/ckts/part_bm_ckts)
 
 ## To make KL_algorithm binary, run command:
    ```
@@ -53,6 +55,6 @@ This KL algorithm implementation was done as a programming assignment for [ELEC-
 
 ## References:
 
-   - B.W. Kernighan and S. Lin, " An Efficient Heuristic Procedure for Partitioning Graphs", Bell Systems Technical Journal 49, (February 1970), 291-307. 
+   - [B.W. Kernighan and S. Lin, " An Efficient Heuristic Procedure for Partitioning Graphs", Bell Systems Technical Journal 49, (February 1970), 291-307. ](https://github.com/12562/ELEC-8590/blob/master/KL_algorithm/related_papers/kl_paper.pdf)
    - [Repository for Graph Node](https://github.com/abangfarhan/graph-sfml)   
 
