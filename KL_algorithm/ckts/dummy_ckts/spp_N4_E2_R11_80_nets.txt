@@ -1,0 +1,14 @@
+#UCLA nodes 1.0
+# Created      : Wed Sep 22 14:45:00 1999
+# User         : caldwell@nexus11.cs.ucla.edu (Andrew Caldwell)
+# Platform     : SunOS 5.7 sparc SUNW,Ultra-5_10
+
+NumPins : 437
+NetDegree : 4
+a0 B
+a1 B
+a2 B
+a3 B
+NetDegree : 2
+a2 B
+a3 B
