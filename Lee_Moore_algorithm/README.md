@@ -13,12 +13,19 @@ progressively labeled one by one according to the distance of the â€œwavefrontâ€
   - Once the target node is reached, a shortest path is then retraced from Target to Source with decreasing labels during the retracing phase.
 
   - The final output looks like the following:
+
+
     ![Final maze router output](https://github.com/12562/ELEC-8590/blob/eefb436ea7dbbf0c6acba7ae12f520f81281138a/Lee_Moore_algorithm/img/Maze%20router%20implementation%20graphical%20output.png)
+    
+  - A video demonstration of the graphical output can be found here:
+
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=807nTElZUS4" target="_blank"><img src="http://img.youtube.com/vi/807nTElZUS4/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## To run
 ```
 ./bin/LeeMoore_routing <Mazetests file> <debug=0|1>
 ```
+   - Mazetests file can be found in the testcases directory [here](https://github.com/12562/ELEC-8590/tree/master/Lee_Moore_algorithm/testcases)
 
 ## To make KL_algorithm binary, run command:
 ```
@@ -59,3 +66,4 @@ include/NodeKL.h           :   Header file for NodeLM.cpp (Class declaration for
 ## References:
 
    - [Repository for Graph Node](https://github.com/abangfarhan/graph-sfml) 
+   - [Algorithm Notes](https://github.com/12562/ELEC-8590/blob/26ceacf35a0acc6589e9a28547a57f326947e4e9/Lee_Moore_algorithm/related_papers/maze_route.pdf)
