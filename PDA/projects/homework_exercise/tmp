@@ -1,0 +1,661 @@
+Read data from file(0) or manual input(1):Enter file path :4 8 107 86 7 91 6 7 106 7 83 4 52 3 4 5 101 2 5 9 103 81 4 7 8
+
+
+Num nodes is :10
+
+
+1 : 4 8 10
+2 : 7 8
+3 : 6 7 9
+4 : 1 6 7 10
+5 : 6 7 8
+6 : 3 4 5
+7 : 2 3 4 5 10
+8 : 1 2 5 9 10
+9 : 3 8
+10 : 1 4 7 8
+
+
+ Making initial bi-partition....... 
+Random(0) or User input(1) :Enter group 1 :Enter group 2 :Group1 : 1 2 3 9 10
+Group2 : 4 5 6 7 8
+
+
+Calculating cut cost for the current partition.....
+Node : 1
+Group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 2
+Group : 1
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 2
+************************************
+Node : 3
+Group : 1
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+************************************
+Node : 4
+Group : 2
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 5
+Group : 2
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 2
+************************************
+Node : 6
+Group : 2
+Connecting node : 3
+Connecting node group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 5
+Connecting node group : 2
+************************************
+Node : 7
+Group : 2
+Connecting node : 2
+Connecting node group : 1
+Connecting node : 3
+Connecting node group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 8
+Group : 2
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 2
+Connecting node group : 1
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 9
+Group : 1
+Connecting node : 3
+Connecting node group : 1
+Connecting node : 8
+Connecting node group : 2
+************************************
+Node : 10
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 2
+************************************
+
+
+Cut cost of current partitioning : 10
+
+
+
+Calculating initial D values .....
+D value of 1: 1
+D value of 2: 2
+D value of 3: 1
+D value of 4: 0
+D value of 5: -3
+D value of 6: -1
+D value of 7: 1
+D value of 8: 3
+D value of 9: 0
+D value of 10: 2
+Node1 1 :: Node2 4 :: Gain -1
+Node1 1 :: Node2 5 :: Gain -2
+Node1 1 :: Node2 6 :: Gain 0
+Node1 1 :: Node2 7 :: Gain 2
+Node1 1 :: Node2 8 :: Gain 2
+Node1 2 :: Node2 4 :: Gain 2
+Node1 2 :: Node2 5 :: Gain -1
+Node1 2 :: Node2 6 :: Gain 1
+Node1 2 :: Node2 7 :: Gain 1
+Node1 2 :: Node2 8 :: Gain 3
+Node1 3 :: Node2 4 :: Gain 1
+Node1 3 :: Node2 5 :: Gain -2
+Node1 3 :: Node2 6 :: Gain -2
+Node1 3 :: Node2 7 :: Gain 0
+Node1 3 :: Node2 8 :: Gain 4
+Node1 9 :: Node2 4 :: Gain 0
+Node1 9 :: Node2 5 :: Gain -3
+Node1 9 :: Node2 6 :: Gain -1
+Node1 9 :: Node2 7 :: Gain 1
+Node1 9 :: Node2 8 :: Gain 1
+Node1 10 :: Node2 4 :: Gain 0
+Node1 10 :: Node2 5 :: Gain -1
+Node1 10 :: Node2 6 :: Gain 1
+Node1 10 :: Node2 7 :: Gain 1
+Node1 10 :: Node2 8 :: Gain 3
+
+
+Max gain achieved in iteration 1 is:4
+********************************************************************
+
+
+A after deletion of 3 is: 1 2 9 10:: B after deletion of 8 is: 4 5 6 7
+
+
+
+Updating D values ........
+D value of 1: -1
+D value of 2: 0
+D value of 9: 0
+D value of 10: 0
+D value of 4: 0
+D value of 5: -1
+D value of 6: -3
+D value of 7: -1
+Node1 1 :: Node2 4 :: Gain -3
+Node1 1 :: Node2 5 :: Gain -2
+Node1 1 :: Node2 6 :: Gain -4
+Node1 1 :: Node2 7 :: Gain -2
+Node1 2 :: Node2 4 :: Gain 0
+Node1 2 :: Node2 5 :: Gain -1
+Node1 2 :: Node2 6 :: Gain -3
+Node1 2 :: Node2 7 :: Gain -3
+Node1 9 :: Node2 4 :: Gain 0
+Node1 9 :: Node2 5 :: Gain -1
+Node1 9 :: Node2 6 :: Gain -3
+Node1 9 :: Node2 7 :: Gain -1
+Node1 10 :: Node2 4 :: Gain -2
+Node1 10 :: Node2 5 :: Gain -1
+Node1 10 :: Node2 6 :: Gain -3
+Node1 10 :: Node2 7 :: Gain -3
+
+
+Max gain achieved in iteration 2 is:0
+********************************************************************
+
+
+A after deletion of 2 is: 1 9 10:: B after deletion of 4 is: 5 6 7
+
+
+
+Updating D values ........
+D value of 1: -3
+D value of 9: 0
+D value of 10: -2
+D value of 5: -1
+D value of 6: -1
+D value of 7: -1
+Node1 1 :: Node2 5 :: Gain -4
+Node1 1 :: Node2 6 :: Gain -4
+Node1 1 :: Node2 7 :: Gain -4
+Node1 9 :: Node2 5 :: Gain -1
+Node1 9 :: Node2 6 :: Gain -1
+Node1 9 :: Node2 7 :: Gain -1
+Node1 10 :: Node2 5 :: Gain -3
+Node1 10 :: Node2 6 :: Gain -3
+Node1 10 :: Node2 7 :: Gain -5
+
+
+Max gain achieved in iteration 3 is:-1
+********************************************************************
+
+
+A after deletion of 9 is: 1 10:: B after deletion of 5 is: 6 7
+
+
+
+Updating D values ........
+D value of 1: -3
+D value of 10: -2
+D value of 6: 1
+D value of 7: 1
+Node1 1 :: Node2 6 :: Gain -2
+Node1 1 :: Node2 7 :: Gain -2
+Node1 10 :: Node2 6 :: Gain -1
+Node1 10 :: Node2 7 :: Gain -3
+
+
+Max gain achieved in iteration 4 is:-1
+********************************************************************
+
+
+A after deletion of 10 is: 1:: B after deletion of 6 is: 7
+
+
+
+Updating D values ........
+D value of 1: -1
+D value of 7: -1
+Node1 1 :: Node2 7 :: Gain -2
+
+
+Max gain achieved in iteration 5 is:-2
+********************************************************************
+
+
+A after deletion of 1 is: :: B after deletion of 7 is: 
+
+
+
+Number of elements to swap (k value) : 1
+
+
+Enter swap
+After swap:: G1: 1 2 9 10 8:: G2: 4 5 6 7 3
+
+
+
+
+Partitions after pass are:
+A:1 2 9 10 8
+B:4 5 6 7 3
+Gain achieved = 4
+
+
+
+Calculating cut cost for the current partition.....
+Node : 1
+Group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 2
+Group : 1
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 3
+Group : 2
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+************************************
+Node : 4
+Group : 2
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 5
+Group : 2
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 6
+Group : 2
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 5
+Connecting node group : 2
+************************************
+Node : 7
+Group : 2
+Connecting node : 2
+Connecting node group : 1
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 8
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 2
+Connecting node group : 1
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 9
+Group : 1
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 10
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 4
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+
+
+Cut cost of current partitioning : 6
+
+
+
+Calculating initial D values .....
+D value of 1: -1
+D value of 2: 0
+D value of 3: -1
+D value of 4: 0
+D value of 5: -1
+D value of 6: -3
+D value of 7: -1
+D value of 8: -3
+D value of 9: 0
+D value of 10: 0
+Node1 1 :: Node2 4 :: Gain -3
+Node1 1 :: Node2 5 :: Gain -2
+Node1 1 :: Node2 6 :: Gain -4
+Node1 1 :: Node2 7 :: Gain -2
+Node1 1 :: Node2 3 :: Gain -2
+Node1 2 :: Node2 4 :: Gain 0
+Node1 2 :: Node2 5 :: Gain -1
+Node1 2 :: Node2 6 :: Gain -3
+Node1 2 :: Node2 7 :: Gain -3
+Node1 2 :: Node2 3 :: Gain -1
+Node1 9 :: Node2 4 :: Gain 0
+Node1 9 :: Node2 5 :: Gain -1
+Node1 9 :: Node2 6 :: Gain -3
+Node1 9 :: Node2 7 :: Gain -1
+Node1 9 :: Node2 3 :: Gain -3
+Node1 10 :: Node2 4 :: Gain -2
+Node1 10 :: Node2 5 :: Gain -1
+Node1 10 :: Node2 6 :: Gain -3
+Node1 10 :: Node2 7 :: Gain -3
+Node1 10 :: Node2 3 :: Gain -1
+Node1 8 :: Node2 4 :: Gain -3
+Node1 8 :: Node2 5 :: Gain -6
+Node1 8 :: Node2 6 :: Gain -6
+Node1 8 :: Node2 7 :: Gain -4
+Node1 8 :: Node2 3 :: Gain -4
+
+
+Max gain achieved in iteration 1 is:0
+********************************************************************
+
+
+A after deletion of 2 is: 1 9 10 8:: B after deletion of 4 is: 5 6 7 3
+
+
+
+Updating D values ........
+D value of 1: -3
+D value of 9: 0
+D value of 10: -2
+D value of 8: -1
+D value of 5: -1
+D value of 6: -1
+D value of 7: -1
+D value of 3: -1
+Node1 1 :: Node2 5 :: Gain -4
+Node1 1 :: Node2 6 :: Gain -4
+Node1 1 :: Node2 7 :: Gain -4
+Node1 1 :: Node2 3 :: Gain -4
+Node1 9 :: Node2 5 :: Gain -1
+Node1 9 :: Node2 6 :: Gain -1
+Node1 9 :: Node2 7 :: Gain -1
+Node1 9 :: Node2 3 :: Gain -3
+Node1 10 :: Node2 5 :: Gain -3
+Node1 10 :: Node2 6 :: Gain -3
+Node1 10 :: Node2 7 :: Gain -5
+Node1 10 :: Node2 3 :: Gain -3
+Node1 8 :: Node2 5 :: Gain -4
+Node1 8 :: Node2 6 :: Gain -2
+Node1 8 :: Node2 7 :: Gain -2
+Node1 8 :: Node2 3 :: Gain -2
+
+
+Max gain achieved in iteration 2 is:-1
+********************************************************************
+
+
+A after deletion of 9 is: 1 10 8:: B after deletion of 5 is: 6 7 3
+
+
+
+Updating D values ........
+D value of 1: -3
+D value of 10: -2
+D value of 8: -1
+D value of 6: 1
+D value of 7: 1
+D value of 3: -3
+Node1 1 :: Node2 6 :: Gain -2
+Node1 1 :: Node2 7 :: Gain -2
+Node1 1 :: Node2 3 :: Gain -6
+Node1 10 :: Node2 6 :: Gain -1
+Node1 10 :: Node2 7 :: Gain -3
+Node1 10 :: Node2 3 :: Gain -5
+Node1 8 :: Node2 6 :: Gain 0
+Node1 8 :: Node2 7 :: Gain 0
+Node1 8 :: Node2 3 :: Gain -4
+
+
+Max gain achieved in iteration 3 is:0
+********************************************************************
+
+
+A after deletion of 8 is: 1 10:: B after deletion of 6 is: 7 3
+
+
+
+Updating D values ........
+D value of 1: -1
+D value of 10: 0
+D value of 7: 1
+D value of 3: -1
+Node1 1 :: Node2 7 :: Gain 0
+Node1 1 :: Node2 3 :: Gain -2
+Node1 10 :: Node2 7 :: Gain -1
+Node1 10 :: Node2 3 :: Gain -1
+
+
+Max gain achieved in iteration 4 is:0
+********************************************************************
+
+
+A after deletion of 1 is: 10:: B after deletion of 7 is: 3
+
+
+
+Updating D values ........
+D value of 10: 0
+D value of 3: 1
+Node1 10 :: Node2 3 :: Gain 1
+
+
+Max gain achieved in iteration 5 is:1
+********************************************************************
+
+
+A after deletion of 10 is: :: B after deletion of 3 is: 
+
+
+
+Number of elements to swap (k value) : 1
+
+
+Enter swap
+After swap:: G1: 1 9 10 8 4:: G2: 5 6 7 3 2
+
+
+
+
+Partitions after pass are:
+A:1 9 10 8 4
+B:5 6 7 3 2
+Gain achieved = 0
+
+
+
+Calculating cut cost for the current partition.....
+Node : 1
+Group : 1
+Connecting node : 4
+Connecting node group : 1
+Connecting node : 8
+Connecting node group : 1
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 2
+Group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 3
+Group : 2
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+************************************
+Node : 4
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 5
+Group : 2
+Connecting node : 6
+Connecting node group : 2
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 6
+Group : 2
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 4
+Connecting node group : 1
+Connecting node : 5
+Connecting node group : 2
+************************************
+Node : 7
+Group : 2
+Connecting node : 2
+Connecting node group : 2
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 4
+Connecting node group : 1
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 8
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 2
+Connecting node group : 2
+Connecting node : 5
+Connecting node group : 2
+Connecting node : 9
+Connecting node group : 1
+Connecting node : 10
+Connecting node group : 1
+************************************
+Node : 9
+Group : 1
+Connecting node : 3
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+Node : 10
+Group : 1
+Connecting node : 1
+Connecting node group : 1
+Connecting node : 4
+Connecting node group : 1
+Connecting node : 7
+Connecting node group : 2
+Connecting node : 8
+Connecting node group : 1
+************************************
+
+
+Cut cost of current partitioning : 6
+
+
+
+Calculating initial D values .....
+D value of 1: -3
+D value of 2: 0
+D value of 3: -1
+D value of 4: 0
+D value of 5: -1
+D value of 6: -1
+D value of 7: -1
+D value of 8: -1
+D value of 9: 0
+D value of 10: -2
