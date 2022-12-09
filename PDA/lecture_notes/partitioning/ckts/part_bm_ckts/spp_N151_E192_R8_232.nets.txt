@@ -1,0 +1,721 @@
+UCLA nets 1.0
+# Created      : Wed Sep 22 14:45:02 1999
+# User         : caldwell@nexus11.cs.ucla.edu (Andrew Caldwell) 
+# Platform     : SunOS 5.7 sparc SUNW,Ultra-5_10 
+
+NumPins : 522
+NetDegree : 2
+p1 B
+a0 B
+NetDegree : 2
+p1 B
+a0 B
+NetDegree : 2
+p2 B
+a0 B
+NetDegree : 2
+a1 B
+a0 B
+NetDegree : 2
+p2 B
+a1 B
+NetDegree : 2
+a2 B
+a3 B
+NetDegree : 2
+p2 B
+a2 B
+NetDegree : 2
+p1 B
+a3 B
+NetDegree : 2
+p2 B
+a3 B
+NetDegree : 2
+p1 B
+a3 B
+NetDegree : 2
+a4 B
+a5 B
+NetDegree : 10
+p1 B
+a25 B
+a4 B
+a9 B
+a10 B
+a15 B
+a16 B
+a103 B
+a114 B
+a145 B
+NetDegree : 2
+p1 B
+a4 B
+NetDegree : 2
+p1 B
+a5 B
+NetDegree : 2
+p2 B
+a5 B
+NetDegree : 2
+a6 B
+a5 B
+NetDegree : 2
+p2 B
+a6 B
+NetDegree : 2
+a7 B
+a8 B
+NetDegree : 2
+p2 B
+a7 B
+NetDegree : 2
+p1 B
+a8 B
+NetDegree : 2
+p2 B
+a8 B
+NetDegree : 2
+a9 B
+a8 B
+NetDegree : 2
+a50 B
+a9 B
+NetDegree : 2
+a10 B
+a11 B
+NetDegree : 2
+a47 B
+a10 B
+NetDegree : 2
+p1 B
+a11 B
+NetDegree : 2
+p2 B
+a11 B
+NetDegree : 2
+a12 B
+a11 B
+NetDegree : 2
+p2 B
+a12 B
+NetDegree : 2
+a13 B
+a14 B
+NetDegree : 2
+p2 B
+a13 B
+NetDegree : 2
+p1 B
+a14 B
+NetDegree : 2
+p2 B
+a14 B
+NetDegree : 2
+a15 B
+a14 B
+NetDegree : 2
+a43 B
+a15 B
+NetDegree : 2
+a16 B
+a17 B
+NetDegree : 2
+a40 B
+a16 B
+NetDegree : 2
+p1 B
+a17 B
+NetDegree : 2
+p2 B
+a17 B
+NetDegree : 2
+a18 B
+a17 B
+NetDegree : 2
+p2 B
+a18 B
+NetDegree : 3
+a19 B
+a21 B
+a23 B
+NetDegree : 2
+p2 B
+a19 B
+NetDegree : 3
+a24 B
+a19 B
+a20 B
+NetDegree : 3
+a20 B
+a22 B
+a23 B
+NetDegree : 2
+p2 B
+a20 B
+NetDegree : 4
+a21 B
+a28 B
+a104 B
+a139 B
+NetDegree : 3
+a24 B
+a21 B
+a22 B
+NetDegree : 4
+p2 B
+a22 B
+a27 B
+a146 B
+NetDegree : 3
+a25 B
+a91 B
+a98 B
+NetDegree : 2
+a36 B
+a25 B
+NetDegree : 2
+a26 B
+a30 B
+NetDegree : 2
+a27 B
+a26 B
+NetDegree : 2
+a28 B
+a26 B
+NetDegree : 5
+p2 B
+a27 B
+a83 B
+a85 B
+a146 B
+NetDegree : 2
+a29 B
+a27 B
+NetDegree : 3
+a134 B
+a28 B
+a133 B
+NetDegree : 2
+a30 B
+a31 B
+NetDegree : 4
+p2 B
+a30 B
+a104 B
+a146 B
+NetDegree : 2
+a31 B
+a32 B
+NetDegree : 3
+a32 B
+a31 B
+a37 B
+NetDegree : 2
+a33 B
+a32 B
+NetDegree : 3
+a33 B
+a34 B
+a36 B
+NetDegree : 8
+p2 B
+a105 B
+a33 B
+a36 B
+a109 B
+a110 B
+a111 B
+a145 B
+NetDegree : 2
+a35 B
+a34 B
+NetDegree : 7
+p1 B
+a35 B
+a39 B
+a44 B
+a46 B
+a51 B
+a115 B
+NetDegree : 6
+p1 B
+a142 B
+a35 B
+a120 B
+a124 B
+a130 B
+NetDegree : 2
+a37 B
+a36 B
+NetDegree : 2
+p2 B
+a37 B
+NetDegree : 2
+a38 B
+a40 B
+NetDegree : 2
+a75 B
+a38 B
+NetDegree : 2
+a39 B
+a40 B
+NetDegree : 2
+a62 B
+a39 B
+NetDegree : 2
+a41 B
+a40 B
+NetDegree : 9
+a103 B
+a41 B
+a42 B
+a48 B
+a49 B
+a99 B
+a100 B
+a101 B
+a102 B
+NetDegree : 2
+a42 B
+a43 B
+NetDegree : 2
+p2 B
+a42 B
+NetDegree : 2
+a44 B
+a43 B
+NetDegree : 2
+p2 B
+a43 B
+NetDegree : 2
+a73 B
+a44 B
+NetDegree : 2
+a45 B
+a47 B
+NetDegree : 2
+a52 B
+a45 B
+NetDegree : 2
+a46 B
+a47 B
+NetDegree : 2
+a89 B
+a46 B
+NetDegree : 2
+a48 B
+a47 B
+NetDegree : 2
+p2 B
+a48 B
+NetDegree : 2
+a49 B
+a50 B
+NetDegree : 2
+p2 B
+a49 B
+NetDegree : 2
+a51 B
+a50 B
+NetDegree : 2
+p2 B
+a50 B
+NetDegree : 2
+a82 B
+a51 B
+NetDegree : 2
+p2 B
+a52 B
+NetDegree : 6
+a64 B
+a53 B
+a54 B
+a55 B
+a62 B
+a66 B
+NetDegree : 3
+a65 B
+a53 B
+a54 B
+NetDegree : 2
+a53 B
+a68 B
+NetDegree : 2
+a54 B
+a77 B
+NetDegree : 8
+p2 B
+a72 B
+a54 B
+a55 B
+a65 B
+a66 B
+a68 B
+a73 B
+NetDegree : 2
+a55 B
+a84 B
+NetDegree : 7
+a81 B
+a55 B
+a65 B
+a66 B
+a74 B
+a77 B
+a82 B
+NetDegree : 2
+a56 B
+a58 B
+NetDegree : 6
+p1 B
+a97 B
+a56 B
+a67 B
+a76 B
+a83 B
+NetDegree : 2
+a57 B
+a60 B
+NetDegree : 2
+a61 B
+a57 B
+NetDegree : 2
+a63 B
+a57 B
+NetDegree : 2
+a58 B
+a59 B
+NetDegree : 5
+p1 B
+a58 B
+a69 B
+a78 B
+a85 B
+NetDegree : 2
+a59 B
+a60 B
+NetDegree : 6
+p1 B
+a95 B
+a59 B
+a70 B
+a79 B
+a86 B
+NetDegree : 6
+p1 B
+a96 B
+a59 B
+a70 B
+a79 B
+a86 B
+NetDegree : 2
+a60 B
+a61 B
+NetDegree : 6
+p1 B
+a94 B
+a60 B
+a71 B
+a80 B
+a87 B
+NetDegree : 3
+p2 B
+a61 B
+a64 B
+NetDegree : 6
+p1 B
+a90 B
+a61 B
+a72 B
+a81 B
+a88 B
+NetDegree : 6
+p1 B
+a98 B
+a62 B
+a73 B
+a82 B
+a89 B
+NetDegree : 3
+p2 B
+a63 B
+a64 B
+NetDegree : 6
+a88 B
+a65 B
+a66 B
+a74 B
+a84 B
+a89 B
+NetDegree : 2
+p2 B
+a66 B
+NetDegree : 2
+a67 B
+a69 B
+NetDegree : 2
+a68 B
+a71 B
+NetDegree : 2
+a69 B
+a70 B
+NetDegree : 2
+a70 B
+a71 B
+NetDegree : 2
+a71 B
+a72 B
+NetDegree : 2
+p2 B
+a74 B
+NetDegree : 2
+p2 B
+a75 B
+NetDegree : 2
+a76 B
+a78 B
+NetDegree : 3
+p2 B
+a76 B
+a78 B
+NetDegree : 2
+a77 B
+a80 B
+NetDegree : 2
+a78 B
+a79 B
+NetDegree : 2
+a79 B
+a80 B
+NetDegree : 2
+a80 B
+a81 B
+NetDegree : 2
+a83 B
+a85 B
+NetDegree : 2
+a84 B
+a87 B
+NetDegree : 2
+a85 B
+a86 B
+NetDegree : 2
+a86 B
+a87 B
+NetDegree : 2
+a87 B
+a88 B
+NetDegree : 4
+p2 B
+a90 B
+a93 B
+a109 B
+NetDegree : 2
+p2 B
+a92 B
+NetDegree : 5
+p2 B
+a92 B
+a94 B
+a107 B
+a109 B
+NetDegree : 2
+p2 B
+a93 B
+NetDegree : 2
+a118 B
+a95 B
+NetDegree : 5
+a96 B
+a122 B
+a125 B
+a130 B
+a143 B
+NetDegree : 2
+a117 B
+a97 B
+NetDegree : 2
+p1 B
+a99 B
+NetDegree : 2
+a137 B
+a99 B
+NetDegree : 2
+p1 B
+a100 B
+NetDegree : 2
+a138 B
+a100 B
+NetDegree : 2
+p1 B
+a101 B
+NetDegree : 6
+a126 B
+a101 B
+a135 B
+a142 B
+a143 B
+a144 B
+NetDegree : 2
+p1 B
+a102 B
+NetDegree : 4
+a128 B
+a144 B
+a102 B
+a127 B
+NetDegree : 7
+a145 B
+a103 B
+a113 B
+a115 B
+a116 B
+a137 B
+a138 B
+NetDegree : 4
+a104 B
+a105 B
+a107 B
+a131 B
+NetDegree : 3
+a133 B
+a104 B
+a139 B
+NetDegree : 3
+p2 B
+a106 B
+a131 B
+NetDegree : 2
+a106 B
+a107 B
+NetDegree : 2
+a108 B
+a106 B
+NetDegree : 2
+a106 B
+a130 B
+NetDegree : 2
+a136 B
+a107 B
+NetDegree : 2
+a109 B
+a132 B
+NetDegree : 3
+p2 B
+a110 B
+a129 B
+NetDegree : 2
+a110 B
+a117 B
+NetDegree : 2
+a112 B
+a110 B
+NetDegree : 2
+a111 B
+a123 B
+NetDegree : 2
+a111 B
+a121 B
+NetDegree : 2
+a111 B
+a113 B
+NetDegree : 7
+a144 B
+a112 B
+a113 B
+a117 B
+a121 B
+a123 B
+a129 B
+NetDegree : 4
+a114 B
+a113 B
+a115 B
+a116 B
+NetDegree : 2
+a120 B
+a115 B
+NetDegree : 2
+a122 B
+a116 B
+NetDegree : 2
+a124 B
+a118 B
+NetDegree : 2
+p2 B
+a119 B
+NetDegree : 2
+a125 B
+a119 B
+NetDegree : 2
+a121 B
+a120 B
+NetDegree : 2
+a123 B
+a122 B
+NetDegree : 4
+a129 B
+a124 B
+a125 B
+a130 B
+NetDegree : 4
+p2 B
+a126 B
+a128 B
+a136 B
+NetDegree : 4
+p2 B
+a141 B
+a126 B
+a128 B
+NetDegree : 2
+a135 B
+a126 B
+NetDegree : 2
+a127 B
+a128 B
+NetDegree : 4
+p2 B
+a139 B
+a127 B
+a135 B
+NetDegree : 3
+a128 B
+a142 B
+a143 B
+NetDegree : 2
+a131 B
+a132 B
+NetDegree : 3
+a132 B
+a131 B
+a137 B
+NetDegree : 2
+a140 B
+a141 B
+NetDegree : 2
+a146 B
+a145 B
+NetDegree : 2
+a147 B
+a146 B
+NetDegree : 2
+a148 B
+a149 B
+NetDegree : 2
+p2 B
+a148 B
+NetDegree : 2
+p1 B
+a149 B
+NetDegree : 2
+p1 B
+a149 B
+NetDegree : 2
+p2 B
+a149 B
+NetDegree : 2
+p2 B
+a150 B
+
