@@ -1,7 +1,7 @@
 # Lee-Moore Algorithm Implementation
 
 ## Introduction
-This LM algorithm implementation was done as a programming assignment for [ELEC-8950 Physical Design Automation](https://sites.google.com/view/mohammedaskhalid/teaching?authuser=0) course at [University of Windsor](@UWindsor) 
+This LM algorithm implementation was done as a programming assignment for [ELEC-8950 Physical Design Automation](https://sites.google.com/view/mohammedaskhalid/teaching?authuser=0) course at [University of Windsor](https://github.com/UWindsor) 
 
 ## Report explaining the implementation and the experiments in detail
 [LM-Maze router implementation](https://github.com/12562/ELEC-8590/blob/master/Lee_Moore_algorithm/Maze_router_implementation.pdf)
