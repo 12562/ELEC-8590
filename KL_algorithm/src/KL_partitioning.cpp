@@ -17,7 +17,7 @@
 #include "NodeKL.h"
 #include "read_data_helper.h"
 #include "KL_helper.h"
-#include "KL_bipartion_main.h"
+#include "KL_bipartition_main.h"
 
 int main(int argc, char * argv[]) {
     const int width = 1200;
@@ -34,8 +34,8 @@ int main(int argc, char * argv[]) {
     } else {
         //nodes_file = "/home/mohit/Downloads/uwindsor/Physical_design_automation/lecture_notes/partitioning/spp_N10_E17_R11_80_nodes.txt";
         //nets_file = "/home/mohit/Downloads/uwindsor/Physical_design_automation/lecture_notes/partitioning/spp_N10_E17_R11_80_nets.txt";
-        nodes_file = "/home/mohit/Downloads/uwindsor/Physical_design_automation/lecture_notes/partitioning/part_bm_ckts/spp_N199_E232_R11_154.nodes.txt";
-        nets_file = "/home/mohit/Downloads/uwindsor/Physical_design_automation/lecture_notes/partitioning/part_bm_ckts/spp_N199_E232_R11_154.nets.txt";
+        nodes_file = "../PDA/lecture_notes/partitioning/part_bm_ckts/spp_N199_E232_R11_154.nodes.txt";
+        nets_file = "../PDA/lecture_notes/partitioning/part_bm_ckts/spp_N199_E232_R11_154.nets.txt";
     }
      
     node_data = read_node_names(nodes_file, &numnodes, &numterminals); 
